@@ -26,7 +26,7 @@ XSCTH_DT_PATH = "${XSCTH_PROJ}/${XSCTH_PROC_IP}_0/device_tree_domain/bsp/"
 # XSCT extracted bitstream directory is hw_project_name/hw/*.bit
 XSCTH_HW_PATH = "${XSCTH_WS}/${XSCTH_PROJ}/hw"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 DEPENDS += "\
     dtc-native \

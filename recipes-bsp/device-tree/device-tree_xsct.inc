@@ -13,7 +13,7 @@ inherit xsctdt xsctyaml
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 B = "${WORKDIR}/${BPN}-build"
 
 XSCTH_BUILD_CONFIG = ""

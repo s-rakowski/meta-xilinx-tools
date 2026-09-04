@@ -10,7 +10,7 @@ inherit check_xsct_enabled deploy xlnx-embeddedsw xsctbase
 COMPATIBLE_MACHINE = "^$"
 COMPATIBLE_MACHINE:kria = "${MACHINE}"
 
-S = "${WORKDIR}/git/lib/sw_apps/img_rcvry/src"
+S = "${UNPACKDIR}/git/lib/sw_apps/img_rcvry/src"
 
 PARALLEL_MAKE = "-j 1"
 

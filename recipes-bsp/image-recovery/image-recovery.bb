@@ -1,6 +1,6 @@
 DESCRIPTION = "Image Recovery"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 DEPENDS += "bootgen-native fsbl-firmware"
 
 PV = "${ESW_VER}"

@@ -17,7 +17,7 @@ SRC_URI[sha256sum] = "${XSCT_CHECKSUM}"
 
 inherit check_xsct_enabled native
 
-S = "${WORKDIR}/Vitis"
+S = "${UNPACKDIR}/Vitis"
 B = "${S}"
 
 SYSROOT_DIRS_NATIVE += "${STAGING_DIR_NATIVE}/Vitis/${PV}"

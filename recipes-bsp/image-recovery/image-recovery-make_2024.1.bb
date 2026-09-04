@@ -13,7 +13,7 @@ COMPATIBLE_MACHINE:eval-brd-sc-zynqmp = "${MACHINE}"
 
 EXTRA_OEMAKE:append:eval-brd-sc-zynqmp = "BOARD=SC"
 
-S = "${WORKDIR}/git/lib/sw_apps/img_rcvry/src"
+S = "${UNPACKDIR}/git/lib/sw_apps/img_rcvry/src"
 
 PARALLEL_MAKE = "-j 1"
 
